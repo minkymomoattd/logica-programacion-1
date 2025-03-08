@@ -24,8 +24,11 @@ function sortNums(x,y,z) {
             alert("ascendente: "+num1+", "+num2+", "+num3);
             alert("descendente: "+num3+", "+num2+", "+num1);
         } else {
-            alert("ascendente: "+num2+", "+num1+", "+num3);
-            alert("descendente: "+num3+", "+num1+", "+num2);
+            num1=z;
+            num2=x;
+            num3=y;
+            alert("ascendente: "+num1+", "+num2+", "+num3);
+            alert("descendente: "+num3+", "+num2+", "+num1);
         }
         
     } else {
